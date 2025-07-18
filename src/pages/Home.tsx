@@ -5,7 +5,6 @@ import {
   FileText,
   Instagram,
   Lightbulb,
-  Star,
 } from 'lucide-react'
 import { Link } from 'react-router-dom'
 

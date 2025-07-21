@@ -7,6 +7,7 @@ import {
   Lightbulb,
 } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import Testimonials from '../components/Testimonials'
 
 const Home = () => {
   const services = [
@@ -112,6 +113,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Testimonials Section */}
+      <Testimonials />
 
       {/* CTA Section */}
       <section className='section-padding bg-gray-900 text-white'>
